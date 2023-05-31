@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Blogy - Selam, biz Blogy'yiz. Hikayelerimizi ve fikirlerimizi görün.</title>
+  <meta name="title" content="Selam, biz Blogy'yiz. Hikayelerimizi ve fikirlerimizi görün.">
+  <meta name="description" content="This is a blog html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="129" height="40" alt="Blogy logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Ana Menü</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Son Gönderimiz</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Üyelik</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Ara</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="#" class="btn">Kayıt ol</a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Search" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Please enter at least 3 characters</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <strong class="strong">Selam, biz Blogy'yiz.</strong> Hikayelerimizi ve fikirlerimizi görün.
+          </h1>
+
+          <div class="wrapper">
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="E-posta adresi" class="email-field">
+
+              <button type="submit" class="btn">Abone ol</button>
+            </form>
+
+            <p class="newsletter-text">
+              E-posta bültenini almak ve üyelere özel içerik ve güncellemelere erişmek için abone olun.</p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section featured" aria-label="featured post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            En güzel hikayelerimiz ile <strong class="strong">hadi başlayalım.</strong>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-1.jpg" width="500" height="600" loading="lazy"
+                    alt="New technology is not good or evil in and of itself" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-1.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-2.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Tasarım</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Fikir</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Yeniden incele</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Yeni teknoloji kendi başına iyi ya da kötü değildir
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Yeni teknolojinin doğası gereği iyi ya da kötü olmadığını söyleyebiliriz. Onun etkileri ve sonuçları,
+                    insanların niyetleri ve kullanımlarıyla belirlenir. Teknolojiyi doğru şekilde yönetmek ve kullanmak, 
+                    olumlu etkilerini artırırken olumsuz sonuçları minimize etmeye yardımcı olabilir. 
+                    Bu nedenle, teknolojiyi kullanırken sorumluluk sahibi olmalı ve etik değerlere uygun bir şekilde hareket etmeliyiz.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-2.jpg" width="500" height="600" loading="lazy"
+                    alt="It’s a new era in design, there are no rules" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Yaratıcılık</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Ürün</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Tasarımda yeni bir dönem, kural yok!
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    tasarımda yeni bir dönem başlıyor ve kuralların yerine daha özgür ve deneysel bir yaklaşım geliyor.
+                    Bu, tasarımcıların sınırları zorlama özgürlüğüne sahip olmalarını sağlıyor ve yaratıcılıklarını 
+                    tam anlamıyla ifade etmelerine imkan veriyor. Ancak, bu özgürlüğün temel prensiplere bağlı kalmayı 
+                    gerektirdiğini unutmamak önemlidir. Tasarımın hala anlaşılabilir ve işlevsel olması gerekmektedir.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-3.jpg" width="500" height="600" loading="lazy"
+                    alt="Perfection has to do with the end product" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-4.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Tasarım</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Yaratıcılık</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Fikir</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Mükemmellik nihai ürünle ilgilidir
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Mükemmeliyetçilik, sonuç odaklı bir kavramdır. Birçok insan için mükemmeliyet, 
+                    başarının önemli bir parçası olarak kabul edilir. Ancak, mükemmeliyetçilik aynı 
+                    zamanda zorluklara ve olumsuz etkilere de neden olabilir. Önemli olan, 
+                    mükemmeliyetçilik kavramını kendi kişisel değerlerimize, hedeflerimize ve sınırlarımıza 
+                    göre tanımlamak ve dengeyi sağlamaktır. Her zaman mükemmel olmak mümkün olmayabilir, ancak 
+                    kaliteli ve tatmin edici sonuçlar elde etmek için gayret ve özveri göstermek önemlidir.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-4.jpg" width="500" height="600" loading="lazy"
+                    alt="Everyone has a different life story" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-5.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-2.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">İnsan</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Hikaye</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Herkesin farklı bir hayat hikayesi var
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Herkesin benzersiz bir yaşam hikayesi vardır. Bu hikayeler, deneyimlerimiz, 
+                    hedeflerimiz ve değerlerimizle şekillenir. Farklılıklarımızı anlamak ve saygı duymak, 
+                    daha kapsayıcı bir toplumun inşasına katkı sağlar. Herkesin hikayesi önemlidir ve her 
+                    birimizin birbirimize anlayışla yaklaşması gerekmektedir.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-5.jpg" width="500" height="600" loading="lazy"
+                    alt="The difference is quality" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-6.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Tasarım</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Yaşam Tarzı</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Fikir</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      fark kalitedir
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fark kalitede gizlidir. Kaliteli bir ürün veya hizmet, kullanıcılar 
+                    için değerli bir deneyim sunar. Kalite, müşteri memnuniyetini artırır, 
+                    marka itibarını destekler ve işletmelerin rekabet avantajı elde etmesini sağlar. 
+                    Kalite, her sektörde önemli bir faktördür ve başarıya giden yolda belirleyici bir rol oynar.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-6.jpg" width="500" height="600" loading="lazy"
+                    alt="Problems are not stop signs, they are guidelines" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Fikir</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Yaratıcılık</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Sorunlar dur işaretleri değil, yönergelerdir!
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    sorunlar durma işaretleri değildir, kılavuzlardır. Sorunlar, bizi 
+                    çözüm arayışına yönlendirir ve büyüme fırsatları sunar. 
+                    Zorluklarla yüzleşmek, yaratıcılığımızı, esnekliğimizi ve dayanıklılığımızı 
+                    geliştirir. Her sorunla karşılaştığımızda, kendimizi daha da güçlendirir ve kişisel 
+                    gelişimimize katkıda bulunuruz. Sorunları birer fırsat olarak görmek, hayatta ilerlememize ve 
+                    başarıya ulaşmamıza yardımcı olur.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h2 class="h2 section-title">
+              Son zamanlarda <strong class="strong">yazdıklarımıza bakın</strong>
+            </h2>
+
+            <div class="top-author">
+              <ul class="avatar-list">
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-1.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-2.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-3.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-4.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-5.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+              <span class="span">En iyi yazarlarımızla tanışın</span>
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/recent-1.jpg" width="550" height="660" loading="lazy"
+                    alt="Creating is a privilege but it’s also a gift" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-5.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Yaşam Tarzı</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">İnsan</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Yeniden incele</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Yaratmak bir ayrıcalık ama aynı zamanda bir hediye                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Yaratmak bir ayrıcalıktır, ancak aynı zamanda bir hediye de olarak değerlendirilebilir. 
+                    Yaratıcılık, insanın kendini ifade etmesini, yeni fikirler üretmesini ve dünyayı daha iyi 
+                    bir yer haline getirmesini sağlar. Yaratıcılık, mutluluk ve tatmin duygusu verirken, sorumluluk gerektirir.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/recent-2.jpg" width="550" height="660" loading="lazy"
+                    alt="Being unique is better than being perfect" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-5.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Tasarım</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Ürün</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Fikir</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Eşsiz olmak mükemmel olmaktan daha iyidir
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    benzersiz olmak, mükemmel olmaktan daha değerlidir. Her birimizin kendine özgü yetenekleri, 
+                    deneyimleri ve özellikleri vardır. Benzersizlik, bizi birbirimizden ayıran ve birlikte daha 
+                    zengin bir dünya oluşturmamızı sağlayan bir güçtür.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/recent-3.jpg" width="550" height="660" loading="lazy"
+                    alt="Now we’re getting somewhere" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-2.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-5.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-1.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Fikir</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Ürün</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Yeniden incele</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Şimdi bir yere varıyoruz
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Şimdi ilerliyoruz! İlerleme, hedefimize doğru adım attığımızı gösterir ve motivasyonumuzu artırır. 
+                    Her ilerleme aşamasında öğreniyoruz, büyüyoruz ve kendimizi geliştiriyoruz. İlerlemek, zorluklarla 
+                    karşılaşsak bile, bizi daha güçlü kılar ve hedefimize ulaşma yolunda bize ilham verir. Şimdi daha iyi 
+                    bir yerdeyiz ve daha fazlasını başarmak için ilerlemeye devam ediyoruz.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/recent-4.jpg" width="550" height="660" loading="lazy"
+                    alt="The trick to getting more done is to have the freedom to roam around" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Yaşam Tarzı</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Tasarım</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Daha fazlasını yapmanın püf noktası, etrafta dolaşma özgürlüğüne sahip olmaktır.
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    daha fazlasını başarmanın sırrı, dolaşma özgürlüğüne sahip olmaktan geçer. Farklı konular arasında dolaşmak, 
+                    yaratıcılığımızı canlı tutar, perspektifimizi genişletir ve yeni fikirlerin ortaya çıkmasını sağlar.Dolaşma 
+                    özgürlüğü, yeni deneyimler edinmek ve kendimizi geliştirmek için bize fırsat sunar. Örneğin, yeni bir beceri 
+                    öğrenmek veya ilgi alanımız dışında bir alanda deneyim kazanmak için farklı projeler veya görevler üstlenebiliriz. 
+                    Bu, bizi sınırlarımızı zorlamaya teşvik eder ve kişisel ve profesyonel gelişimimize katkıda bulunur.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/recent-5.jpg" width="550" height="660" loading="lazy"
+                    alt="Every day, in every city and town across the country" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-1.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-6.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">İnsan</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Hikaye</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Yaşam Tarzı</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Her gün, ülke genelinde her şehir ve kasabada </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Her gün, her birimizin farklı deneyimleri ve hikayeleri vardır. 
+                    Şehirler ve kasabalar, farklı kültürler, gelenekler ve yaşam tarzları ile doludur. 
+                    Bu çeşitlilik, ülkemizin zenginliğini ve çeşitliliğini yansıtır. Her bir yerde, insanlar
+                    kendi yaşam hikayelerini inşa eder ve farklı deneyimler yaşarlar.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/recent-6.jpg" width="550" height="660" loading="lazy"
+                    alt="Your voice, your mind, your story, your vision" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-6.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">İnsan</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Yeniden incele</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Hikaye</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Senin sesin, senin zihnin, senin hikayen, senin vizyonun
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    esin, zihnin, hikayen ve vizyonun seni eşsiz kılan ve seni tanımlayan temel unsurlardır. 
+                    Kendi sesini bulmak, düşüncelerini ifade etmek, yaşadığın hikayeyi anlatmak ve vizyonunu 
+                    gerçekleştirmek, senin gücünü ve potansiyelini ortaya çıkarır.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn">Daha fazla</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECOMMENDED POST
+      -->
+
+      <section class="section recommended" aria-label="recommended post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <strong class="strong">Önerilenler</strong>
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-1.jpg" width="300" height="360" loading="lazy"
+                    alt="The trick to getting more done is to have the freedom to roam around " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-5.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-2.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Daha fazlasını yapmanın püf noktası, etrafta dolaşma özgürlüğüne sahip olmaktır.
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-2.jpg" width="300" height="360" loading="lazy"
+                    alt="Every day, in every city and town across the country " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Her gün, ülke genelinde her şehir ve kasabada
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-3.jpg" width="300" height="360" loading="lazy"
+                    alt="I work best when my space is filled with inspiration " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-1.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Alanım ilhamla dolduğunda en iyi şekilde çalışırım                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-4.jpg" width="300" height="360" loading="lazy"
+                    alt="I have my own definition of minimalism " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-4.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Kendi minimalizm tanımım var                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-5.jpg" width="300" height="360" loading="lazy"
+                    alt="Change your look and your attitude " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-6.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Görünümünüzü ve tutumunuzu değiştirin
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-6.jpg" width="300" height="360" loading="lazy"
+                    alt="The difference is quality " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      fark kalitedir                    
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter">
+
+        <h2 class="h2 section-title">
+          Yeni gönderiler için <strong class="strong">Kayıt ol</strong>
+        </h2>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="E-posta adresi" required class="email-field">
+
+          <button type="submit" class="btn">Abone ol</button>
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="129" height="40" alt="Blogy logo">
+          </a>
+
+          <p class="footer-text">
+            Ücretsiz yayın yapabilmek için minimal, işlevsel bir site.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Sosyal Medya</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="https://www.facebook.com/alieren.yaman.7" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="https://twitter.com/ergesoon" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-instagram"></ion-icon>
+
+            <a href="https://instagram.com/alieren.yaman" class="footer-link hover:underline">İnstagram</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Hakkımızda</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Stil Rehberi</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Yenilikler</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Bağlantı</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">404</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Gizlilik Poliçesi</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Yenilikler</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Gelecek Etkinlikler</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Blog ve Haberler</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Yenilikler</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">SSS Soruları</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Referans</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Üyelik</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Hesap</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Üyelik</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Abone ol</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Etiketler</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Yazarlar</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; Blogy 2023. <a href="https://instagram.com/alieren.yaman" class="copyright-link hover:underline">Ali Eren Yaman </a> tarafından yapılmıştır.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
